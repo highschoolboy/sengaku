@@ -412,6 +412,9 @@ footer p {
   filter: blur(0);
   transition-duration: 0.5s;
 }
+.body{
+    background-image: url(/image/black.jpg);
+  }
 /* モバイル版
 ------------------------------- */
 @media (max-width: 750px) {
@@ -585,7 +588,5 @@ footer p {
     display: none;
     margin-bottom: 100px;
   }
-  .body{
-    background-image: url(/image/black.jpg);
-  }
+  
 }
