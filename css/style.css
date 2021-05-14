@@ -11,7 +11,7 @@ body {
   line-height: 1.7;
   color: white;
   background-color: rgb(0, 0, 0);
-  background-image: url(/image/black.jpg);
+  background-image: url(image/black.jpg);
   background-repeat: round;
 }
 .color {
@@ -412,9 +412,6 @@ footer p {
   filter: blur(0);
   transition-duration: 0.5s;
 }
-.body{
-    background-image: url(/image/black.jpg);
-  }
 /* モバイル版
 ------------------------------- */
 @media (max-width: 750px) {
