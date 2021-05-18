@@ -11,7 +11,7 @@ body {
   line-height: 1.7;
   color: white;
   background-color: rgb(0, 0, 0);
-  background-image: url(/image/black.jpg);
+  background-image: url(black.jpg);
   background-repeat: round;
   font-style: inherit;
 }
