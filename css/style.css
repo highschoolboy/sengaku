@@ -3,7 +3,7 @@
 /* 共通部分
 ------------------------------- */
 html {
-  font-size: 120%;
+  font-size: 100%;
 }
 body {
   font-family: "HGP行書体", "Yu Gothic Medium", "游ゴシック Medium", YuGothic,
@@ -228,6 +228,7 @@ aside {
 .sub-menu {
   margin-bottom: 60px;
   list-style: none;
+  padding: 0 15px;
 }
 .sub-menu li {
   border-bottom: 1px #ddd solid;
@@ -416,7 +417,7 @@ footer p {
 /* モバイル版
 ------------------------------- */
 @media (max-width: 750px) {
-  body{
+  body {
     font-size: 75%;
   }
 
