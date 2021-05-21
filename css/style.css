@@ -6,8 +6,7 @@ html {
   font-size: 100%;
 }
 body {
-  font-family: "HGP行書体", "Yu Gothic Medium", "游ゴシック Medium", YuGothic,
-    "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  font-family: "HGP行書体", sans-serif;
   line-height: 1.7;
   color: white;
   background-color: rgb(0, 0, 0);
@@ -335,7 +334,7 @@ input[type="submit"] {
 }
 .location-info {
   width: 22%;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 .location-info p {
   padding: 12px 10px;
@@ -420,7 +419,9 @@ footer p {
   body {
     font-size: 75%;
   }
-
+.line{
+  font-size: 2rem;
+}
   .page-title {
     font-size: 2.5rem;
   }
@@ -517,25 +518,6 @@ footer p {
   .sns-box {
     margin-bottom: 30px;
   }
-}
-/*641px～PC　PC上では見えないようにする*/
-@media screen and (min-width: 650px) {
-  .footer_area {
-    display: none;
-  }
-  .twitter-follow-button {
-    display: none;
-  }
-  .phone {
-    display: none;
-  }
-  .info {
-    display: none;
-  }
-}
-
-/*スマホ～641pxの幅サイズまで*/
-@media screen and (max-width: 640px) {
   .footer_area {
     position: fixed;
     bottom: 0;
@@ -552,7 +534,7 @@ footer p {
     margin-right: 0px;
   }
   .menu-content {
-    font-size: 2rem;
+    font-size:  1.2rem;
   }
   .footer_area .footer_area_inner .footer_area_inner_btn {
     width: 85%;
@@ -590,5 +572,20 @@ footer p {
   .pc {
     display: none;
     margin-bottom: 100px;
+  }
+}
+/*641px～PC　PC上では見えないようにする*/
+@media screen and (min-width: 650px) {
+  .footer_area {
+    display: none;
+  }
+  .twitter-follow-button {
+    display: none;
+  }
+  .phone {
+    display: none;
+  }
+  .info {
+    display: none;
   }
 }
