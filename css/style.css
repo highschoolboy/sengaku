@@ -623,8 +623,11 @@ footer p {
   .bottom {
     margin-bottom: 5%;
   }
+  .locate {
+    font-size: 85%;
+  }
 }
-/*641px～PC　PC上では見えないようにする*/
+
 @media screen and (min-width: 650px) {
   .footer_area {
     display: none;
